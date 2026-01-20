@@ -1,16 +1,22 @@
-# AIM: Task List Manager
+# AIM: WAP to find students appearing for entrance exams
 # Coder:
 # Date:
 
-print("--- Task List Manager ---")
-tasks = ["Sleep", "Getup", "Brush"]
-print(f"Original Tasks: {tasks}")
+print("--- Entrance Exam Students ---")
+cet_students = {"Alice", "Bob", "Charlie", "David"}
+jee_students = {"Eve", "Frank", "Grace", "Heidi"}
+neet_students = {"Ivan", "Judy", "Karl", "Liam"}
+
+print(f"List of Students:")
+print(f"CET Students: {cet_students}")
+print(f"JEE Students: {jee_students}")
+print(f"NEET Students: {neet_students}")
 
 # Write your code here
-# TODO: Add & Print new Task from user
+# TODO: Find and Print All the Students appearing for any Entrance Exam
 
-# TODO: Edit & Print task selected by User
+# TODO: Find and Print Students appearing for All Entrance Exams
 
-# TODO: Remove & Print a Task selected by User
+# TODO: Find and Print Students appearing for JEE but not for NEET
 
-# TODO: Sort & Print the Tasks
+# TODO: Find and Print Students appearing for CET and NEET but not for JEE
